@@ -1,0 +1,21 @@
+//Instrucciones básicas
+//CONDICIONALES
+
+#include<iostream>//Libreria de cabezera
+using namespace std;
+
+int main(){
+	//definimos edad
+	int edad;
+	cout<<"Introduce tu edad";
+	cin>> edad;
+	if(edad>=18){
+		//rama verdadero
+		cout<<"Eres mayor de edad";
+	}
+	else{
+		//rama falso
+		cout<<"Eres menor de edad";
+	}
+	return 0;
+}
