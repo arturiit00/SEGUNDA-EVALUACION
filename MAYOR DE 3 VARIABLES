@@ -1,0 +1,21 @@
+//Instrucciones básicas
+//CONDICIONALES
+
+#include<iostream>//Libreria de cabezera
+using namespace std;
+
+int main(){
+	//definimos 3 VARIABLES
+	int N1,N2,N3;
+	cout<<"Introduce tres numeros enteros";
+	cin>> N1 >> N2 >> N3;
+	if(N1>N2){
+		if(N1>N3){
+			cout<<"El mayor es"<<N1;
+		}
+	}
+	else{
+		cout<<"El mayor es "<<N3;
+	}
+	return 0;
+}
