@@ -1,7 +1,7 @@
 //Instrucciones básicas
 //CONDICIONALES
 
-#include<iostream>//Libreria de cabezera
+#include<iostream>//Libreria de cabecera
 using namespace std;
 
 int main(){
