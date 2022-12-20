@@ -30,7 +30,10 @@ int main(){
 		case 3:
 			break;
 		default:
-			cout<<"No has elegido ninguna opcion";		
+			cout<<"No has elegido ninguna opcion";
+					
 	}
+	
+	return 0;
 	
 }
