@@ -1,0 +1,18 @@
+#include<iostream>//Librería de cabecera
+//Instrucciones básicas
+//Ejemplo de for: tabla de multiplicar
+using namespace std;
+
+int main(){
+	int cont;
+	int n_tabla;
+	cout<<"Dime que tabla quieres saber: ";
+	cin>>n_tabla;
+	cout<<"***************";
+	cout<<"* Tabla del "<<n_tabla<<" *"<<endl;
+	cout<<"***************"<<endl;
+	for(cont=0;cont<=10;cont++){
+		cout<<n_tabla<<" X "<<cont<<" = "<<n_tabla*cont<<endl;
+	}
+	return 0;
+}
