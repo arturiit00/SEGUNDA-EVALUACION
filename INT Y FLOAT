@@ -1,0 +1,14 @@
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main(){
+	int y;
+	float x;
+	x=3.2;
+	y=5;
+	printf("numero 1 = %f, numero 2 =%d",x,y);//cout %d es un entero y cout % f es un flotante
+	
+	return 0;
+}
